@@ -1,0 +1,59 @@
+body{
+    background-image: url(../assets/otro_xd.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+#mago{
+    position: relative;
+    z-index: 2;
+}
+
+.logo-gryffindor{
+    transition: 0.3s;
+}
+.logo-gryffindor:hover{
+    transform: scale(1.12,1.12);
+}
+
+.logo-hp{
+    transition: 0.3s;
+}
+.logo-hp:hover{
+    transform: scale(1.10,1.10);
+}
+.logo-slytherin{
+    transition: 0.3s;
+}
+
+.logo-slytherin:hover{
+    transform: scale(1.12,1.12);
+}
+.contenedor{
+    margin-bottom: 4;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.imagen{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 1, 1, 1.7);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.imagen:hover{
+    transform: scale(1.07, 1.07);
+}
+
+.principal{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
+}
